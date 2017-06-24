@@ -70,7 +70,7 @@ def VGG16(include_top=True, input_shape=None, pooling=None):
     x = Conv2D(256,(3,3), activation='relu', padding='same', name='block3_conv1')(x)
     x = Conv2D(256,(3,3), activation='relu', padding='same', name='block3_conv2')(x)
     x = Conv2D(256,(3,3), activation='relu', padding='same', name='block3_conv3')(x)
-    x = MaxPooling2D((2,2), strides=(2,2) name='block3_pool')(x)
+    x = MaxPooling2D((2,2), strides=(2,2), name='block3_pool')(x)
 
     # Block 4
     x = Conv2D(512,(3,3), activation='relu', padding='same', name='block4_conv1')(x)
