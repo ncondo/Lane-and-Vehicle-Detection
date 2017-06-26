@@ -16,9 +16,9 @@ The goal of this project is to produce a robust pipeline for detecting lane line
     * Contains code for applying color and gradient thresholds to an image to better detect lane lines.
 3. lane_tracker.py
     * Contains code for identifying lane lines and highlighting the lane boundaries.
-4. video_generator.py
-    * Contains code to generate a video with lane boundaries applied to an input video from a dashcam.
-    * `python video_generator.py project_video.mp4` will save the output video as project_video_output.mp4 in the same directory.
+4. process_video.py
+    * Contains code to generate a video with lane boundaries applied to an input video.
+    * `python process_video.py` will save the output video as project_video_out.mp4 in the output_videos/ directory.
 5. image_generator.py
     * Contains code to generate images with lane boundaries applied to the test images from a dashcam.
     * `python image_generator.py` will save the output images in the output_images folder.
