@@ -7,7 +7,7 @@ The goal of this project is to produce a robust pipeline for detecting lane line
 ![Original Image](test_images/test_example1.jpeg)   ![Output Image](output_images/output_example1.jpeg)
 
 
-## Files and Usage
+### Files and Usage
 
 1. camera_cal.py
     * Contains code for calibrating the camera to undistort images.
@@ -23,7 +23,6 @@ The goal of this project is to produce a robust pipeline for detecting lane line
     * Contains code to generate images with lane boundaries applied to the test images from a dashcam.
     * `python image_generator.py` will save the output images in the output_images folder.
 
-## Solution
 
 ### Overview
 
