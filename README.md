@@ -1,6 +1,6 @@
 # Lane and Vehicle Detection for Self-Driving Cars
 
-The goal of this project is to produce a robust pipeline for detecting lane lines and surrounding vehicles given an image from a front-facing monocular camera. The pipeline should output a visual display of the lane boundaries, bounding boxes around nearby vehicles, numerical estimation of lane curvature, and vehicle position within the lane.
+The goal of this project is to produce a robust pipeline for detecting lane lines and surrounding vehicles given an image from a front-facing monocular camera. The pipeline should output a visual display of the lane boundaries, numerical estimation of lane curvature, the vehicle's position within the lane, and bounding boxes drawn around nearby vehicles.
 
 ## Lane Detection
 
